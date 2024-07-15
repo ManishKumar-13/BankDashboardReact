@@ -1,0 +1,53 @@
+.flex-container {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* align-items: center; */
+    padding: 2rem;
+  }
+  
+  .controls {
+    flex: 4;
+    padding-left: 4rem;
+    padding-right: 3rem;
+  }
+  
+  .chart-container {
+    flex: 1.5;
+    padding-left:4rem;
+  }
+  
+  .control {
+    margin-bottom: 1.5rem;
+  }
+  
+  .range-label {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+  
+  .range-min-max {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #888;
+  }
+  
+  .chart-card {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .monthly-payment {
+    margin-top: 1rem;
+  }
+  
+  .payment-amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
